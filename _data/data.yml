@@ -4,262 +4,259 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Miroslav Hlávka 
+    tagline: Revízny technik VTZ §23 - §24 (vek 34 rokov)
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    email: miroslav.hlavka@icloud.com
+    phone: +421 917 503 086  
+    timezone: Europe/Bratislava 
+    citizenship: Slovakia
+    website: easysmart.sk #do not add http://
+    linkedin: miroslav-hlavka
+    #github: NowStrongPassword
+    telegram: mrx # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    twitter: NSpassword
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: /root/online-cv/assets/images/Miroslav_Hlavka.pdf
     languages:
-      title: Languages
+      title: Jazyky
       info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
+        - idiom: Slovenský jazyk
+          level: rodný jazyk
+          
+        - idiom: Anglický jazyk
+          level: A2  
     interests:
-      title: Interests
-      info:
-        - item: Climbing
+        title: Vodičské oprávnenie
+        info:
+        - item: sk. "B" 
           link:
 
-        - item: Snowboarding
-          link:
 
-        - item: Cooking
-          link:
+
 
 career-profile:
-    title: Career Profile
+    title: Profesný profil
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      V oblasti elektrotechniky a energetiky sa pohybujem prakticky 14 rokov. Mám bohaté skúsenosti s vysokonapäťovými a s nízkonapäťovými zariadeniami. 
+      
+      Medzi hlavné činnosti patrí vykonávanie odborných prehliadok a odborných skúšok na vyhradenom technickom zariadení, obsluha zariadenia, prevádzka a údržba. Neodmysliteľnou súčasťou uvedených činností tvorí vyhľadávanie a lokalizovanie porúch na VN/NN vedeniach. Procesy ktoré dobre vyzerajú na papieri, nemusia v praxi priniesť požadovaný výsledok.
+      
+       Vo voľnom čase sa venujem spoznávaniu nových technológii a tvorbe malých IT projektov „self-hosted“. Medzi moje hlavné záujmy patrí práca so sieťou LAN/WAN, konfigurácia, návrh sieťovej infraštruktúry, vyhľadavánie a lokalizovanie kolíznych stavov.  Rád skúšam niečo nové, či už je to na komunikačnej alebo aplikačnej úrovni. Mám záujem sa v tomto smere naďalej rozvíjať, vzdelávať a pracovať na profesionálnej úrovni.
+
 education:
-    title: Education
+    title: Vzdelanie
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Mechanik v elektrotechnike - silnoprúdové zariadenia
+        university: Združená stredná škola dopravná Martin - Priekopa
+        time: 2004 - 2008
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
 experiences:
-    title: Experiences
+    title: Pracovné skúsenosti
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Elektrikár SÚ - Martin
+        time: 2009 - 2017
+        company: Stredoslovenská energetika, a.s.
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            - Prevádzka a obsluha elektrického zariadenia SSD, a.s. (EZ) VN a NN.
+            - Odstraňovanie následkov havárií, kalamít a poruchových stavov EZ VN a NN a účasť na pohotovostnej službe.
+            - Vykonávanie pravidelných a mimoriadnych prehliadok a revízií na zariadeniach VN a NN v zmysle platných STN a preventívnych prevádzkových  
+              činností.
+            - Vykonávanie údržby, montážnych prác a opráv EZ VN a NN bez napätia a pod napätím.
+            - Zaisťovanie beznapäťového stavu EZ VN na B príkaz.
+            - Práca s informačnými systémami riadenia údržby a zber dát pre potreby riadenia elektrizačnej sústavy SSD, a.s.
+            
+      - role: Technik Údržby
+        time: 2017 - po súčasnosť
+        company: Stredoslovenská distribučná, a.s.
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+            - Zabezpečenie technických potrieb na realizáciu pridelených pracovných príkazov: materiál, dopravné a mechanizačné prostriedky, interné a  
+              externé služby.
+            - Technická analýza pridelených pracovných príkazov v systéme EAM.
+            - Vytváranie pravidelných reportov vzniknutých porúch (SRI, CRIS,)
+            - Návrh a spracovanie technických riešení zistených nedostatkov.
+            - Spracovanie časovej a kapacitnej náročnosti pridelených pracovných príkazov.
+            - Definovanie postupov, pracovných metód a bezpečnostných opatrení na realizáciu prác.
+            - Spracovanie cenových kalkulácií.
+            - Jednanie s dotknutými subjektmi - splnenie legislatívnych podmienok (vyjadrenia vlastníkov inžinierskych sietí, upovedomenie vlastníkov 
+              nehnuteľností o vstupe na pozemok...)
+            - Zabezpečenie uvoľnenia energetických zariadení z prevádzky, v rozsahu na bezpečnú realizáciu prác.
+            - Vykonávanie činností súvisiacich s pohotovostnou poruchovou službou, riešenie odchýlok v evidencií.
+            - Spracovanie požiadaviek do plánu OPEX a CAPEX.
+            - Vykonávanie návštev zariadení distribučnej sústavy VN a NN.
+            - Poskytovanie informácií oprávneným záujemcom podľa stanovených pravidiel.
+            - Analyzovanie a vyhodnotenie odstraňovania následkov kalamít, havárií a porúch.
+            
 certifications:
-      title: Certifications
+      title: Certifikácie
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Cisco CCNA 200-301 Akreditované vzdelávanie 
+          start: 2023
+          end: 2023
+          organization: Univerzitné centrum Košice 
+          credentialid: 200-301
+          credentialurl: uck.sk
+          credentialname: CCNA 200-301
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
+            Získané zručnosti:
+            - Funkcie IP dátových sietí, OSI a TCP/IP model, sieťové médiá a typy kabeláže LAN siete, Ethernet protokol
+            - Konfigurácia prepínača
+            - Konfigurácia a troubleshooting VLAN, trunkov IP adresácie (IPv4/IPv6)
+            - Konfigurácia smerovača
+            - Statické a dynamické smerovanie, inter-VLAN routing
+            - Konfigurácia protokolu Open Shortest Path First (OSPF)
+            - Spanning Tree protokol (STP) a Rapid Spanning Tree protokol (RSTP)
+            - Konfigurácia linkovej agregácie a L3 redundancia WAN siete a protokolov, VPN siete
+            - Nastavenie DHCP, ACL, NAT, Overloading
+            - Základné koncepty kvality služieb (QoS)
+            - Základy bezdrôtových sietí
+            - Architektúra sietí
+            - Základy sieťovej programability a softvérovo-definovaných sietí (SDN)
+            - Správa Cisco zariadení 
+            - Základy sieťovej bezpečnosti a obrany pred hrozbami
+            - Základná konfigurácia zabezpečení sieťových prvkov
+            
+        - name: Enterprise Networking, Security, and Automation
+          start: 2023
+          end: 2023
+          organization: Cisco networking academy
+          credentialid: 200-301
+          credentialurl: netacad.com
+          credentialname: CCNA 200-301
+          details: |
+          
+        - name: Switching, Routing, and Wireless Essentials
+          start: 2023
+          end: 2023
+          organization: Cisco networking academy
+          credentialid: 200-301
+          credentialurl: netacad.com
+          credentialname: CCNA 200-301
+          details: |
+          
+        - name: Introduction to Networks
+          start: 2023
+          end: 2023
+          organization: Cisco networking academy
+          credentialid: 200-301
+          credentialurl: netacad.com
+          credentialname: CCNA 200-301
+          details: |
+              
+        - name: SQL databázy 
           start: 2019
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: Skillmea
+          credentialid: 
+          credentialurl: www.skillmea.sk
+          credentialname: MySQL a SQLite
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+                          
+        - name: Microsoft Access - základy
+          start: 2019
+          end:
+          organization: LAPIS
+          credentialid: 
+          credentialurl: www.lapis.sk
+          credentialname: LAPIS IT
+          details: |
+           Základná práca s databázami v programe MS Access. Používanie vytvorenej databázy, zoraďovanie údajov, filtrovanie, zoskupovanie, vyhľadávanie. Tvorba tabuliek, formulárov a zostáv.
+                        
+        - name: Vyhláška 508/2009 Z.z §24
+          start: 2013
+          end:
+          organization: Inšpektorát práce Banská Bystrica
+          credentialid: 
+          credentialurl: www.ip.gov.sk
+          credentialname: Revízny technik §24 pre zariadenia do 1000 V
+          details: |
+             Revízny technik pre vykonávanie OPaOS na VTZ-E do 1000 V
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - name: Vyhláška 508/2009 Z.z §23
+          start: 2012
+          end:
+          organization: Inšpektorát práce Banská Bystrica
+          credentialid: 
+          credentialurl: www.ip.gov.sk
+          credentialname: Elektrotechnik §23
+          details: |           
+             Elektrotechnik na riadenie činnosti alebo na riadenie prevádzky bez obmedzenia výšky napätia
+      
+           
+certifications2:
+      title: Projekty
+      list:
+        - name: Sieťové a bezpečnostné technológie 
+        
+          details: |
+            
+            - Bezpečný Home Office
+            - Wireguard
+            - Tailscale
+            - Cloudflared WARP
+            - Ubiquiti
+            - Mikrotik
+            - Cisco
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+            
+        - name: Monitorovanie a analýza dát 
+        
+          details: |
+            
+            - Grafana
+            - Prometheus
+            - InfluxDB
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - name: Exportéry a zbieranie dát 
+        
+          details: |
+            
+            - SNMP Exporter
+            - Blackbox Exporter
+            
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+            
+        - name: Virtualizácia a správa serverov 
+        
+          details: |
+            
+            - Proxmox
+            - Umbrel
+            
+        - name: Integrácia inteligentných domov
+        
+          details: |
+            
+            - Easysmart.sk
+            - Homebridge
+            - Homekit
+            - Scrypted
+                        
+        - name: Databázy a komunikácia v reálnom čase 
+        
+          details: |
+            
+            - Mosquitto
+            - Matrix
+            - SQL
+            
+        - name: Umelá inteligencia a strojové učenie
+        
+          details: |
+            
+            - OpenAI
+            
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="#" target="_blank" rel="nofollow">Miroslav</a>
